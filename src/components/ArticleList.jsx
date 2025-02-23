@@ -1,8 +1,7 @@
 import { useState } from "react";
 import ArticleForm from "./ArticleForm";
 import ArticleItem from "./ArticleItem";
-import { initialArticles } from "../data/articlesData";
-import "../styles/styles.css";
+import { initialArticles } from "./articlesData";
 
 export default function ArticleList() {
   const [articles, setArticles] = useState(initialArticles);
